@@ -2,7 +2,7 @@
 
 .heading{
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -13,8 +13,13 @@
 
 
 .heading button{
-    
+    float: right;
     border: 1px solid white;
+}
+
+
+.big_image{
+    width: 100%;
 }
 
 
@@ -23,14 +28,27 @@
     text-align: center;
 }
 
-#Ins{
-    float: right;
+h4{
+    background-color: lime;
+    line-height: 2;
+    margin: 0px;
 }
 
 
-canvas{
-    border:5px solid white ;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px blue;
-    margin-top: 160px;
-  }
+.modal-dialog{
+    width: 90%;
+}
+
+
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+
+
+video{
+    background: url('nintedo-swich.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
